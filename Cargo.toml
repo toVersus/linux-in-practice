@@ -1,0 +1,11 @@
+[package]
+name = "linux-in-practice"
+version = "0.1.0"
+authors = ["toversus <toversus2357@gmail.com>"]
+
+[dependencies]
+nix = "0.11.0"
+
+[[bin]]
+name = "fork"
+path = "03-process-management/fork.rs"
