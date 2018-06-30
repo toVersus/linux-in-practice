@@ -12,7 +12,7 @@ fn child() {
     ];
     let envs = &[CString::new("").unwrap()];
     println!("I'm child! my pid is {}", getpid());
-    execve(&CString::new("/bin/echo").unwrap(), args, envs).unwrap();
+    execve(&args[0], args, envs).unwrap();
     process::exit(EXIT_FAILURE);
 }
 
