@@ -18,3 +18,7 @@ path = "03-process-management/fork-and-exec.rs"
 [[bin]]
 name = "sched"
 path = "04-process-scheduler/sched.rs"
+
+[[bin]]
+name = "sched-nice"
+path = "04-process-scheduler/sched-nice.rs"
