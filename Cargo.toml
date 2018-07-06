@@ -22,3 +22,7 @@ path = "04-process-scheduler/sched.rs"
 [[bin]]
 name = "sched-nice"
 path = "04-process-scheduler/sched-nice.rs"
+
+[[bin]]
+name = "segv"
+path = "05-memory-management/segv.rs"
