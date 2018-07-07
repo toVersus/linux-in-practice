@@ -6,6 +6,7 @@ authors = ["toversus <toversus2357@gmail.com>"]
 [dependencies]
 nix = "0.11.0"
 libc = "0.2"
+time = "0.1.40"
 
 [[bin]]
 name = "fork"
@@ -34,3 +35,7 @@ path = "05-memory-management/mmap.rs"
 [[bin]]
 name = "filemap"
 path = "05-memory-management/filemap.rs"
+
+[[bin]]
+name = "demand-paging"
+path = "05-memory-management/demand-paging.rs"
